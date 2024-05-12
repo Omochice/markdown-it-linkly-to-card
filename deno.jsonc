@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxFragmentFactory": "Fragment",
+    "jsxImportSource": "npm:hono@3.0.2/jsx"
+  },
   "tasks": {
     "fmt": "deno fmt ./**/*.ts",
     "fmt:check": "deno fmt --check ./**/*.ts",
@@ -7,6 +12,8 @@
   },
   "lock": false,
   "fmt": {
-    "exclude": ["CHANGELOG.md"]
+    "exclude": [
+      "CHANGELOG.md"
+    ]
   }
 }
