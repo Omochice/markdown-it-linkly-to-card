@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxFragmentFactory": "Fragment",
-    "jsxImportSource": "npm:hono@4.8.2/jsx"
+    "jsxImportSource": "npm:hono@4.8.3/jsx"
   },
   "tasks": {
     "fmt": "deno fmt ./**/*.ts",
